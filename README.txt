@@ -1,20 +1,13 @@
-GLASSMART SALES, STOCK, PURCHASES & ONLINE ORDERS SYSTEM
-=======================================================
-
-This package connects the existing GlassMart dashboard design to PHP and MySQL.
-
-FEATURES
-- Role-based sign-in: admin, manager, staff and customer account types.
-- Shared MySQL records instead of browser localStorage.
-- Dashboard totals, sales history and low-stock monitoring.
-- Sales recording with automatic stock deduction.
-- Inventory and stock adjustments.
-- Supplier purchase records with automatic stock increase.
-- Online order page at order.php.
-- Remote order status management.
-- SMS notification queue records for active admin/manager phone numbers.
+# Glassmart Sales, Stock & Remote Orders Monitor
 
 
-- Add CSRF protection, rate limiting, audit logs and a proper administrator-only
-  user-management screen before public production deployment.
-- The system creates queued SMS records only; configure an SMS provider separately.
+## Included
+- Dashboard with sales, stock, pending orders, and low-stock counts
+- Staff sale recording and automatic stock deduction
+- Inventory management and low-stock flags
+- Customer order form and order-status management
+- Simulated SMS alert log
+- Browser localStorage persistence
+
+## Important limitations
+This is a front-end prototype for demonstration, not a production-ready online system. Data stays in the current browser and does not sync between users/devices. SMS alerts are simulated, not actually sent. 
