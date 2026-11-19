@@ -1,2 +1,0 @@
-# miva-glassmart
-sch proj
